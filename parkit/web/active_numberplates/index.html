@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/png" href="/web/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+          <img src="../logo.png" alt="parkIt_Logo" class="logo">
+      </div>
+      <nav>
+          <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about.html">About</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <button id="mode-toggle">Dark/Light Mode</button>
+      <button class="services-toggle">...</button>
+  </header>
+  <div class="services-menu">
+    <ul>
+        <li><a href="#">My Account</a></li>
+        <li><a href="../student/index.html">Register Vehicle</a></li>
+        <li><a href="../security/index.html">Track Vehicle Details</a></li>
+        <li><a href="../log/index.html">Parking Log</a></li>
+        <li><a href="../left_vehicle/index.html">Left_Vehicles</a></li>
+    </ul>
+  </div>
+    <ul id="details"></ul>
+    
+    <script src="active_log.js" type="module"></script>
+    <footer>
+      <p>&copy; 2024 Team ParkIt</p>
+  </footer>
+  </body>
+</html>

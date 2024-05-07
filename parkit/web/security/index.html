@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurityPage</title>
+    <link rel="icon" type="image/png" href="../logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+           <img src="../logo.png" alt="parkIt_Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mode-toggle">Dark/Light Mode</button>
+        <button class="services-toggle">...</button>
+    </header> 
+
+    <div class="services-menu">
+        <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="../student/index.html">Register Vehicle</a></li>
+            <li><a href="../log/index.html">Parking Log</a></li>
+            <li><a href="../active_numberplates/index.html">Present_Vehicle_list</a></li>
+            <li><a href="../left_vehicle/index.html">Left_Vehicles</a></li>
+        </ul>
+    </div>
+  <!-- Rest of the code -->
+   
+      <form class="security" id="myForm">
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="search" class="input" placeholder="Vehicle_Number" /><br />
+        <button class="button" id="searchButton">Search</button>
+      </form>
+      
+      <ul id="details" class="details"></ul>
+
+    <footer>
+         <p>&copy; 2024 Team ParkIt</p>
+    </footer>  
+
+    <script src="security.js" type="module"></script>
+</body>
+</html>

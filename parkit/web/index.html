@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkIt</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="darklight.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../web/logo.png" alt="parkIt_Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="theme" class="theme">
+            <span>Light</span>
+            <span class="theme__toggle-wrap">
+                <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+                <span class="theme__fill"></span>
+                <span class="theme__icon">
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                </span>
+            </span>
+            <span>Dark</span>
+        </label>
+        <button id="mode-toggle">Dark/Light Mode</button>
+        <button class="services-toggle">...</button>
+    </header>
+    <main>
+        <h1>Welcome to our website!</h1>
+       
+        <button>Learn More</button>
+    </main>
+    <div class="services-menu">
+        <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="../web/student/index.html">Register Vehicle</a></li>
+            <li><a href="..//web/security/index.html">Track Vehicle Details</a></li>
+            <li><a href="..//web/log/index.html">Parking Log</a></li>
+            <li><a href="..//web/active_numberplates/index.html">Present_Vehicle_list</a></li>
+            <li><a href="../web/left_vehicle/index.html">Left_Vehicles</a></li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Team ParkIt</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
